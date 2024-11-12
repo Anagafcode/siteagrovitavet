@@ -25,6 +25,7 @@ body{
     h1, h2{color: #7195a7;
     margin-bottom: 32px;}
     h4 {margin: 32px;}
+    h3{font-weight: normal;}
 
     header nav a {color: #2e3c42;
     font-weight: 600;
@@ -37,6 +38,7 @@ body{
         align-items: center;
         gap: 32px;
         padding: 80px 80px 120px;
+        padding-bottom: 24px;
         position: left;
     }
     
@@ -55,28 +57,33 @@ body{
             margin: 0 auto;
         margin-bottom: 32px;}
 
-
+/* 20px em cima, 10px à direita, 30px embaixo, 15px à esquerda */
     #diagnostico{
         background-color: white;
-        display: flex;
+        display: block;
         align-items: center;
         gap: 64px;
-        padding: 80px 80px 100px 120px;
-    
+        margin: auto;
+        padding: 80px 80px 100px 350px;
         position: left;
     }
 
     .diag{color: #7195a7;
         margin-bottom: 32px;}
 
-        .nostico {margin-bottom: 32px;}
+        .nostico {margin-bottom: 32px;
+        
+        }
+        .nosso {margin-left: 50;
+        margin-right: 200px;
+        word-wrap: break-word;}
         
 
     #acoes{ background-color: #7195a7;
         display: block;
         align-items: center;
-        gap: 32px;
-        padding: 80px 80px 80px 400px;
+        gap: 64px;
+        padding: 80px 80px 100px 350px;
         position: left;
          }
 
@@ -98,9 +105,17 @@ body{
         display: block;
         align-items: center;
         gap: 32px;
-        padding: 64px 60px 80px 10px;
-        position: static;
-        margin-bottom: 32px;
+        padding: 64px 60px 80px 250px;
+        justify-content: space-between
+        
    }
    
+   .monit{
+        padding: 9px;
+        padding-right: 100px;
+   }
+
+   .atualizacao { padding: 15px;
+    padding-right: 60px;}
    
+   #treinamento { padding: 80px 80px 100px 350px;  }
