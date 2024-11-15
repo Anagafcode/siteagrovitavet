@@ -44,47 +44,62 @@ body{
     
 
     #valores {background-color: #7195a7;
+        border: 2px solid #7195a7;
         display: flex;
         align-items: center;
         gap: 32px;
-        padding: 80px 80px 80px 200px;
-        position: left;
-        
-        
+        padding: 100px 80px 80px 100px;
+        margin: 0 auto; 
+             
+        box-sizing: border-box;         
     }
+
         .val{color: #000;
-            max-width: 950px;
+           
             margin: 0 auto;
-        margin-bottom: 32px;}
+        margin-bottom: 32px;
+        padding-left: 150px;}
+
+        .paragrafo {
+            margin: 32px auto;
+        margin-bottom: 16px; }
 
 /* 20px em cima, 10px à direita, 30px embaixo, 15px à esquerda */
+
     #diagnostico{
         background-color: white;
         display: block;
-        align-items: center;
         gap: 64px;
         margin: auto;
-        padding: 80px 80px 100px 350px;
-        position: left;
+        padding: 16px 80px 80px 80px;
+      
     }
 
     .diag{color: #7195a7;
         margin-bottom: 32px;}
 
-        .nostico {margin-bottom: 32px;
-        
+        .nostico {margin-bottom: 64px;
         }
         .nosso {margin-left: 50;
         margin-right: 200px;
         word-wrap: break-word;}
+
+        #diagnostico img{ align-items: center;
+        padding-left: 700px;}
+       
+        
         
 
     #acoes{ background-color: #7195a7;
         display: block;
         align-items: center;
         gap: 64px;
-        padding: 80px 80px 100px 350px;
-        position: left;
+        padding: 80px 80px;
+        justify-content: space-between;
+
+        .acoes{ padding-left: 250px;}
+       
+       
          }
 
          /* 20px em cima, 10px à direita, 30px embaixo, 15px à esquerda */
@@ -105,12 +120,17 @@ body{
         display: block;
         align-items: center;
         gap: 32px;
-        padding: 64px 60px 80px 250px;
-        justify-content: space-between
+        padding: 80px 80px 80px 100px;
+        justify-content: space-between;
+        box-sizing: border-box;
         
    }
+    #monitoramento li {margin-top: auto;
+        margin-bottom: 20px;
+        margin-left: 32px;
+    }
    
-   .monit{
+   .monit{ margin-top: 50x;
         padding: 9px;
         padding-right: 100px;
    }
@@ -118,4 +138,18 @@ body{
    .atualizacao { padding: 15px;
     padding-right: 60px;}
    
-   #treinamento { padding: 80px 80px 100px 850px; }
+    
+/* 20px em cima, 10px à direita, 30px embaixo, 15px à esquerda */
+
+#treinamento{display: block;
+            padding: 0px;  /* Ajuste do padding (esquerda foi reduzido para 150px) */
+            gap: 64px;
+            margin: 0px;
+            word-wrap: break-word;
+            overflow-x: hidden;
+}
+
+#treinamento img { width: 400px; height: 300px ;}
+.sem { font-size: 15px;
+padding-bottom: 0px;  /* Ajuste de padding apenas para a esquerda */
+}
