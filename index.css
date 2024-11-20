@@ -33,8 +33,9 @@ body{
     h3{font-weight: normal;}
 
     header nav a {color: #2e3c42;
-    font-weight: 600;
-    padding: 20px;
+    font-weight: 700;
+    padding: 25px;
+    justify-content: space-between;
     text-decoration: none;
     }
 
@@ -69,6 +70,21 @@ body{
             margin: 32px auto;
         margin-bottom: 16px; }
 
+
+    #mortalidade h2 {
+        padding-left: 370px;
+        margin-top: 64px;
+
+    }
+
+    .mort {
+        margin: 40px;
+    }
+
+
+
+
+
 /* 20px em cima, 10px à direita, 30px embaixo, 15px à esquerda */
 
     #diagnostico{
@@ -90,7 +106,10 @@ body{
         word-wrap: break-word;}
 
         #diagnostico img{ align-items: center;
-        padding-left: 700px;}
+        padding-left: 350px;
+        margin-top: 100px;
+        width: ;
+    height: ;}
        
         
         
