@@ -9,7 +9,7 @@ O projeto foi construído utilizando:
 - **JavaScript** → Funcionalidades interativas  
 
 ## 🎯 Objetivo do Projeto  
-O site **Agrovita Vet** foi criado para simular uma empresa veterinária especializada no tratamento de diarreia em bezerros. Ele fornece informações sobre a condição, serviços disponíveis e formas de contato com especialistas.  
+O site **Agrovita Vet** foi criado para simular uma empresa veterinária especializada no tratamento de diarreia em bezerros. Ele fornece informações sobre a importância do diagnóstico, serviços que a empresa realizará para a diminuição dos caso, formas de controle e tratamento e treinamento de equipe.
 
 ## 📌 Funcionalidades  
 ✅ Página inicial com informações sobre a empresa  
